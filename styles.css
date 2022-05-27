@@ -22,10 +22,9 @@ header {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     min-height: 50px;
-    margin: 0 16px;
 }
 
 img {
@@ -38,7 +37,6 @@ nav ul{
     padding: 0;
     margin: 0;
     display: flex;
-
 }
 
 nav li {
@@ -57,10 +55,20 @@ nav a:hover {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 100%;
-    margin: 0 16px;
+}
+
+.header-content-one {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.header-content-two {
+    max-width: 600px;
+    padding: 20px;
+    width: 100%;
 }
 
 header h1{
@@ -86,3 +94,5 @@ header button {
 header button:hover {
     outline: 2px solid #E5E7EB;
 }
+
+/* SECTION 2 */
