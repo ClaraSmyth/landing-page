@@ -15,6 +15,16 @@ body {
 
 header {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
 }
 
 img {
@@ -26,11 +36,29 @@ nav ul{
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+
+}
+
+nav li {
+    padding: 5px 10px;
 }
 
 nav a {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
 header h1{
@@ -49,4 +77,10 @@ header button {
     border: none;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+header button:hover {
+    outline: 2px solid #E5E7EB;
 }
