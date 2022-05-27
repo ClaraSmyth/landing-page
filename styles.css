@@ -25,6 +25,7 @@ header {
     justify-content: space-between;
     align-items: center;
     min-height: 50px;
+    margin: 0 16px;
 }
 
 img {
@@ -59,6 +60,7 @@ nav a:hover {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    margin: 0 16px;
 }
 
 header h1{
