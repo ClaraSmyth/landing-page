@@ -96,3 +96,30 @@ header button:hover {
 }
 
 /* SECTION 2 */
+
+.section-2 {
+    background-color: white;
+    text-align: center;
+}
+
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    margin: 30px 10px 70px 10px;
+}
+
+.card-image img {
+    width: 100%;
+}
+
+/* SECTION 3 */
