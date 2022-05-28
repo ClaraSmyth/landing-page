@@ -25,6 +25,7 @@ header {
     justify-content: space-around;
     align-items: center;
     min-height: 50px;
+    flex-wrap: wrap;
 }
 
 .logo i {
@@ -74,12 +75,26 @@ nav a:hover {
 
 .header-content-two {
     max-width: 800px;
-    min-width: 500px;
     margin: 20px;
     width: 100%;
     border: 0px solid;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .header-content {
+        flex-direction: column;
+    }
+    
+    .header-content-one {
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .header-content-two {
+        display: none;
+    }
 }
 
 header h1{
@@ -124,10 +139,11 @@ header button:hover {
 .card-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
-    width: 300px;
+    max-width: 300px;
     margin: 30px 10px 70px 10px;
     font-size: 24px;
     border: 0px solid white;
@@ -214,6 +230,13 @@ header button:hover {
     height: 50px;
     width: 200px;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .cta {
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 /* FOOTER */
