@@ -158,7 +158,7 @@ header button:hover {
     background-color: white;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 .cta {
@@ -196,3 +196,10 @@ header button:hover {
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
