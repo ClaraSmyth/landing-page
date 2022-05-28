@@ -27,9 +27,16 @@ header {
     min-height: 50px;
 }
 
-img {
+.logo i {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.logo img {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 nav ul{
@@ -61,14 +68,18 @@ nav a:hover {
 }
 
 .header-content-one {
-    max-width: 600px;
+    max-width: 800px;
     padding: 20px;
 }
 
 .header-content-two {
-    max-width: 600px;
-    padding: 20px;
+    max-width: 800px;
+    min-width: 500px;
+    margin: 20px;
     width: 100%;
+    border: 0px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
 }
 
 header h1{
@@ -107,6 +118,7 @@ header button:hover {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    text-decoration: underline;
 }
 
 .card-container {
@@ -115,8 +127,17 @@ header button:hover {
 }
 
 .card {
-    width: 200px;
+    width: 300px;
     margin: 30px 10px 70px 10px;
+    font-size: 24px;
+    border: 0px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+}
+
+.card:hover {
+    outline: 4px solid #3882F6;
 }
 
 .card-image img {
@@ -167,7 +188,7 @@ header button:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1000px;
+    width: 1200px;
     padding: 20px;
 }
 
@@ -202,4 +223,14 @@ footer {
     color: #E5E7EB;
     text-align: center;
     padding: 20px;
+}
+
+footer a {
+    color: #E5E7EB;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
